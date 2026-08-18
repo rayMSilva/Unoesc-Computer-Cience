@@ -11,13 +11,15 @@
 /
 ├── <nome-da-materia>/
 │   ├── resumos/
-│   │   ├── aula-01.pdf
-│   │   ├── recursividade.pdf
-│   │   └── ...
+│   │   └── nome-do-aluno/
+│   │   	├── aula-01.pdf
+│   │  		├── recursividade.pdf
+│   │   	└── ...
 │   └── exercicios/
-│       ├── 0.1-fatorial.py
-│       ├── 0.2-fibonacci.c
-│       └── ...
+│   	└── nome-do-aluno/
+│       	├── 0.1-fatorial.py
+│       	├── 0.2-fibonacci.c
+│       	└── ...
 ```
 
 ## 🏷️ Nomenclatura dos arquivos
