@@ -1,13 +1,13 @@
-S = []
-N = 1
+s = []
+n = 1
 
-def Calculo(S,N):
-    S.append(1/N)
+def calculo(s,n):
+    s.append(1/n)
 
-Valor = int(input("Digite um número inteiro positivo\n"))
+valor = int(input("Digite um número inteiro positivo\n"))
 
-while N != Valor:
-    Calculo(S,N)
-    N += 1
+while n != valor:
+    calculo(s,n)
+    n += 1
 
-print(sum(S))
+print(sum(s))

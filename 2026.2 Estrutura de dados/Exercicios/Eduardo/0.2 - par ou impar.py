@@ -1,5 +1,5 @@
 #Função
-def ParImpar(valor):
+def parImpar(valor):
     if valor % 2 == 0:
         return "par"
     else:
@@ -7,5 +7,5 @@ def ParImpar(valor):
 #Input do valot inteiro
 valor = int(input("Informe sua idade!\n"))
 
-print(f"Você sabia que sua idade é um número {ParImpar(valor)}?\nE sabe o que isso significa? NADA")
+print(f"Você sabia que sua idade é um número {parImpar(valor)}?\nE sabe o que isso significa? NADA")
 
