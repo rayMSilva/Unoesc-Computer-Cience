@@ -48,10 +48,10 @@
    ```
 3. **Crie uma branch** para sua contribuição:
    ```bash
-   git checkout -b materia/nome-do-conteudo
+   git checkout -b nomeAluno/numero alteracao 0.0...0.1...0.2
    ```
-   Exemplo: `git checkout -b algoritmos/recursividade`
-4. **Adicione seus arquivos** na pasta correta (`<materia>/resumos/` ou `<materia>/exercicios/`), seguindo a nomenclatura definida acima. Se a matéria ainda não existir no repositório, crie a pasta seguindo o mesmo padrão.
+   Exemplo: `git checkout -b Ray/0.0`
+4. **Adicione seus arquivos** na pasta correta (`<materia>/resumos/nomeAluno` ou `<materia>/exercicios/nomeAluno`), seguindo a nomenclatura definida acima. Se a matéria ainda não existir no repositório, crie a pasta seguindo o mesmo padrão.
 5. **Faça o commit** com uma mensagem clara e objetiva:
    ```bash
    git add .
