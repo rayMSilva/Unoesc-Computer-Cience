@@ -54,23 +54,24 @@ def mostrarVetor(vetor, elementos):
     
                 
 if __name__ == "__main__":
+    tam = 10
     vetor = [0] * 10
     print(f"Bem vindo ao sistema de gerenciamento de vetores!")
     print(f"Para sair do sistema use CTRL + C!!\n\n")
     try:
-        cadastrarVetor(vetor, 10)
-        bbSort(vetor, 10)
-        inverter(vetor,10)
-        mostrarVetor(vetor, 10)
-        soma = somarVetor(vetor, 10)
+        cadastrarVetor(vetor, tam)
+        bbSort(vetor, tam)
+        inverter(vetor,tam)
+        mostrarVetor(vetor, tam)
+        soma = somarVetor(vetor, tam)
         print(f"A soma de todos os valores do vetor cadastrado é {soma}\n")
-        print(f"Buscando valor 9\n")
-        print(f"Valor 9 encontrado no vetor" if buscar(vetor,10,9) != -1 else "Valor 9 não encontrado no vetor\n")
+        print(f"Buscando o número 9\n")
+        print(f"Valor 9 encontrado no vetor" if buscar(vetor,tam,9) != -1 else "Valor 9 não encontrado no vetor\n")
         print(f"Invertendo vetor\n")
-        inverter(vetor,10)
-        mostrarVetor(vetor,10)
+        inverter(vetor,tam)
+        mostrarVetor(vetor,tam)
         print(f"Buscando maior valor\n")
-        maior, posicao = maiorEPosicao(vetor, 10)
+        maior, posicao = maiorEPosicao(vetor, tam)
         print(f"o maior valor é {maior} e sua poição é {posicao}\n")
     except KeyboardInterrupt:
         print("Obrigado por utilizar o sistema!\n")
